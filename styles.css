@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+  
+
+/* 
+.class
+#id
+*/ 
+
+/* Fonts and body */ 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DFD7CF;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+}
+
+
+p {
+    font-size: 22px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+li, a{
+    font-family: "Josefin Sans", sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Navbar */ 
+
+.topnav {
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+    background-color: transparent;
+    transition: 100ms;
+}
+
+.bgfarge {
+    background-color: rgba(255,255,255,0.7);
+}
+
+.topnav img {
+    height: 70px;
+}
+  
+.topnav #myLinks {
+    display: none;
+    width: 40vw;
+    text-align: right;
+    position: absolute;
+    top: 102.5px;
+    right: 0;
+}
+
+.topnav #myLinks a {
+    text-align: right;
+    color: white;
+    background-color: #918579;
+}
+  
+.topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+.topnav #myLinks a:hover {
+    color: #A65E44;
+    background-color: #DFD7CF;
+}
+
+
+
+/* Forsidebilder og headere */ 
+
+.forsidebilde {
+    background-image: url(bilder/forside1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+}
+
+.header img{
+    height: max-content;
+    size: cover;
+    position: relative;
+}
+
+/* Button */ 
+
+button {
+    background-color: #A65E44;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button:hover{
+    background-color: white;
+    color: #A65E44;
+}
+
+/* Footer */ 
+
+.footer{
+    background-color: #918579;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+
+/* Tekstboks */
+
+.fredag{
+    width: 50vw;
+    margin: 50px auto 50px auto;
+    padding: 90px 116px;
+    background-color: white;
+}
+
+.fredag h1{
+    text-align: center;
+}
+
+
+/* Tekstboks med bilder*/
+.tekstboks{
+    position: relative;
+    text-align: center;
+    padding: 90px 250px;
+    background-position: center;
+    margin: 50px 0;
+}
+
+.tekstboks p {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);;
+    padding: 4rem;
+    text-align: center;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+
+
+/* Locals */ 
+
+/* Index */ 
+
+#tb1{
+    background-image: url(bilder/forside2.jpg);
+}
+
+#hjerte {
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+    z-index: 2;
+}
+
+
+.bildekarusell{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 5% 18%;
+}
+
+.bildekarusell img{
+    width: 30vw;
+}
+
+.Svarskjema{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 5% 18%;
+}
+
+.Svarskjema img{
+    width: 30vw;
+}
+
+
+/* Informasjon */ 
+
+#tb2{
+    background-image: url(bilder/informasjon2.jpg);
+    margin: 50px;
+    background-size: cover;
+}
+
+iframe{
+    width: 80vw;
+    height: 30vh;
+    border:0;
+
+}
+
+.kart{
+    text-align: center;
+}
+
+
+/* Overnatting */ 
+
+#hjertestang{
+    width: 30vw;
+}
+
+.programbilde img{
+    width: 60vw;
+}
+
+.programbilde{
+    text-align: center;
+}
+
+
+.bilderovernatting{
+    text-align: center;
+}
+
+.bilderovernatting img {
+    width: 80vw;
+    height: auto;
+}
+
+.pris{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.prisliste{
+    background-color: white;
+    padding: 10px 30px;
+}
+
+/*Taler*/
+
+#tb3{
+    background-image: url(bilder/taler2.jpg);
+    margin: 50px;
+    background-size: cover;
+}
+
+.toastmaster{
+    text-align: center;
+    margin: 10%;
+}
+
+.toastmaster img{
+    width: 80vw;
+    border-radius: 20px;
+}
+
+/*Eventyr*/
+
+.eventyr{
+    margin: 25px;
+    text-align: center;
+}
+.eventyr img{
+    position: relative;
+    height: 80vh;
+}

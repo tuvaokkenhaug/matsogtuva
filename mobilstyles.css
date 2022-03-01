@@ -1,0 +1,148 @@
+/* Mobil */
+@media screen and (max-width: 871px) {
+    /* Fonts and body */ 
+    h1 {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    
+    h2 {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    h3 {
+        font-size: 12px;
+        font-weight: 300;
+        color: white;
+        line-height: 16px;
+    }
+    
+    
+    p {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+
+    /* Navbar */ 
+
+    .topnav #myLinks {
+        width: 100vw;
+        top: 70px;
+        right: 0;
+        line-height: 40px;
+    }
+
+    .topnav a {
+        padding: 0 30px;
+    }
+
+    .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 17.5px;
+        padding: 0;
+    }
+
+    #meny{
+        width: 50%;
+        height: 50%;
+    }
+    
+    /* Forsidebilder og headere */ 
+
+    .forsidebilde {
+        height: 90vh;
+        background-size: cover;
+    }
+
+    .header img{
+        size: cover;
+    }
+    
+    /* Button */ 
+    button {
+        padding: 15px 24px;
+        font-size: 13px;
+        margin: 50px;
+    }
+
+    /* Footer */ 
+
+    .footer{
+        height: 100px;
+    }
+
+    /* Tekstboks */
+
+    .fredag button{
+        margin: 0;
+    }
+
+    .fredag{
+        width: 50vw;
+        padding: 20px 20px;
+        background-color: white;
+    }
+
+    /* Tekstboks med bilder*/
+
+    .tekstboks{
+        padding: 30px 30px;
+        margin: 0;
+    }
+
+    .tekstboks p{
+        padding: 2rem;
+        margin: 0;
+    }
+
+    /* Locals */ 
+
+    /* Index */ 
+
+    .bildekarusell{
+        display:flow-root;
+        height: max-content;
+    }
+
+    .bildekarusell img{
+        width: 60vw;
+    }
+
+    .Svarskjema{
+        display:flow-root;
+        height: max-content;
+    }
+
+    .Svarskjema img{
+        width: 60vw;
+    }
+
+    /* Overnatting */
+
+    .pris{
+        display: block;
+        text-align: center;
+        width: 70vw;
+        margin: 50px auto 50px auto;
+        padding: 30px 50px;
+    }
+
+    /*Taler*/
+    #tb3{
+        margin: 0;
+    }
+
+    .toastmaster img{
+        width: 100vw;
+        border-radius: 0px;
+    }
+
+    .toastmaster{
+        margin: 25px 0;
+    }
+}

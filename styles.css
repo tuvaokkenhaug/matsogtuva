@@ -77,8 +77,8 @@ li, a{
 
 .topnav #myLinks a {
     text-align: right;
-    color: white;
-    background-color: #918579;
+    color: black;
+    background-color: white;
 }
   
 .topnav a {

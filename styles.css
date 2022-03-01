@@ -105,19 +105,10 @@ li, a{
 
 /* Forsidebilder og headere */ 
 
-.forsidebilde {
-    background-image: url(bilder/forside1.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    width: 100vw;
-    height: 90vh;
-}
-
 .header img{
-    height: max-content;
+    width: 100vw;
     size: cover;
-    position: relative;
+    position: center;
 }
 
 /* Button */ 

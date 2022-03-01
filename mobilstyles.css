@@ -52,17 +52,6 @@
         height: 50%;
     }
     
-    /* Forsidebilder og headere */ 
-
-    .forsidebilde {
-        height: 90vh;
-        background-size: cover;
-    }
-
-    .header img{
-        size: cover;
-    }
-    
     /* Button */ 
     button {
         padding: 15px 24px;

@@ -22,7 +22,7 @@
     
     p {
         font-size: 18px;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 28px;
     }
 
@@ -63,6 +63,8 @@
 
     .footer{
         height: 100px;
+        display: block;
+        padding: 10px;
     }
 
     /* Tekstboks */
@@ -113,6 +115,10 @@
 
     /* Overnatting */
 
+    #hjertestang{
+        width: 50vw;
+    }
+
     .pris{
         display: block;
         text-align: center;
@@ -133,5 +139,16 @@
 
     .toastmaster{
         margin: 25px 0;
+    }
+
+    /*Onskeliste*/
+    .eventyr img{
+        position: relative;
+        height: 70vh;
+    }
+
+    .eventyr img{
+        position: relative;
+        height: 60vh;
     }
 }

@@ -246,7 +246,7 @@ iframe{
 }
 
 .programbilde img{
-    width: 60vw;
+    width: 80vw;
 }
 
 .programbilde{
@@ -295,10 +295,10 @@ iframe{
 /*Eventyr*/
 
 .eventyr{
-    margin: 25px;
+    margin: 20px;
     text-align: center;
 }
 .eventyr img{
     position: relative;
-    height: 80vh;
+    height: 75vh;
 }

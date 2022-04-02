@@ -236,6 +236,8 @@ iframe{
 
 .kart{
     text-align: center;
+    justify-content: center;
+    margin: 50px;
 }
 
 
@@ -263,15 +265,12 @@ iframe{
     height: auto;
 }
 
-.pris{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-}
 
 .prisliste{
+    width: 50vw;
+    margin: 50px auto 50px auto;
+    padding: 90px 116px;
     background-color: white;
-    padding: 10px 30px;
 }
 
 /*Taler*/
